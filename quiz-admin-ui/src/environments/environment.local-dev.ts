@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  serverUrl: 'http://localhost:8080/api/tags'
+  serverUrl: 'http://elasticbeanstalkapp-env.eba-uqcpn3k7.eu-west-1.elasticbeanstalk.com/api'
 };
 
 /*
