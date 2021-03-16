@@ -15,4 +15,6 @@ phases:
       - echo "Finished"
 artifacts:
   files:
-    - dist/quiz-admin-ui/*
+    - "**/*"
+    discard-paths: no
+    base-directory: dist/quiz-admin-ui
