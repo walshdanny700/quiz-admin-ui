@@ -7,6 +7,7 @@ phases:
     commands:
       - echo "Prebuild, installing npm dependencies"
       - npm install
+      - install -g @angular/cli
   build:
     commands:
       - echo "Starting the build step"
@@ -16,4 +17,4 @@ artifacts:
   name: "BuildOutput"
   files:
     - '**/*'
-  base-directory: 'dist/quiz-admin-ui'
+  base-directory: 'dist/quiz-admin-ui/*'

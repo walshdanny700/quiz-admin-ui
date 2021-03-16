@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "start:local-dev": "ng serve --configuration=local-dev",
-    "build": "ng build",
+    "build": "ng build --prod --aot",
     "build:local-dev": "ng build --configuration=local-dev",
     "test": "ng test",
     "lint": "ng lint",
