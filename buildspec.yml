@@ -15,4 +15,4 @@ phases:
       - echo "Finished"
 artifacts:
   files:
-    - dist/**/*
+    - dist/quiz-admin-ui/*
