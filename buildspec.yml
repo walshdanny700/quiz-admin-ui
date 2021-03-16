@@ -17,4 +17,4 @@ artifacts:
   name: "BuildOutput"
   files:
     - '**/*'
-  base-directory: 'dist/quiz-admin-ui/*'
+  base-directory: 'dist/quiz-admin-ui'
