@@ -14,7 +14,5 @@ phases:
       - npm run build
       - echo "Finished"
 artifacts:
-  name: "BuildOutput"
   files:
-    - '**/*'
-  base-directory: 'dist/quiz-admin-ui'
+    - dist/**/*
