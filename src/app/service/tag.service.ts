@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Tag } from '../model/tag';
 import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
@@ -8,10 +8,10 @@ import { environment } from '../../environments/environment';
   providedIn: 'root'
 })
 export class TagService {
-  private tagsUrl: string;
+  private readonly tagsUrl: string;
 
   constructor(private http: HttpClient) {
-    this.tagsUrl = environment.serverUrl + "/tags";
+    this.tagsUrl = environment.TAG_LAMBDA_API;
   }
 
   public findAll(): Observable<Tag[]> {

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  serverUrl: 'http://elasticbeanstalkapp-env.eba-uqcpn3k7.eu-west-1.elasticbeanstalk.com/api'
+  TAG_LAMBDA_API : 'https://jr6jlvczj8.execute-api.eu-west-1.amazonaws.com/default/Quiz-Tag-Api-Lambda'
 };
 
 /*
